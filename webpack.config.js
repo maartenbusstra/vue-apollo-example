@@ -38,7 +38,14 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    noInfo: true
+    noInfo: true,
+    proxy: {
+      '/graphql': {
+        target: 'https://www.graphqlhub.com',
+        secure: false,
+        changeOrigin: true,
+      }
+    },
   },
   devtool: '#eval-source-map'
 }

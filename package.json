@@ -1,5 +1,5 @@
 {
-  "name": "vue-temp",
+  "name": "levue",
   "description": "A Vue.js project",
   "version": "1.0.0",
   "author": "Maarten Busstra <busstra.m@gmail.com>",
@@ -9,12 +9,16 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.1.0"
+    "apollo-client": "^0.5.18",
+    "graphql-tag": "^1.1.2",
+    "vue": "^2.1.0",
+    "vue-apollo": "^1.1.0-beta.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.18.0",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
