@@ -1,4 +1,4 @@
-# levue
+# Vue Apollo example
 
 > A Vue.js project
 
